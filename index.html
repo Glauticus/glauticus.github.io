@@ -1,7 +1,57 @@
 ﻿<!DOCTYPE html>
 <html>
+<head>
+    <title>My Programming Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 <body>
-    <h1>This is Joshua Hughes' Portfolio</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>My Programming Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>Insert a brief introduction about yourself and your programming background here.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <h3>Project 1</h3>
+                    <p>Insert a brief description of your first project here.</p>
+                </li>
+                <li>
+                    <h3>Project 2</h3>
+                    <p>Insert a brief description of your second project here.</p>
+                </li>
+                <li>
+                    <h3>Project 3</h3>
+                    <p>Insert a brief description of your third project here.</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Programming Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
